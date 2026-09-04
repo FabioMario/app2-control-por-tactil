@@ -1,0 +1,16 @@
+{
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s2"
+  },
+  "idf.openOcdConfigs": [
+    "board/esp32s2-kaluga-1.cfg"
+  ],
+  "clangd.path": "/Users/fabio/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/Users/fabio/Downloads/Clase-2-20260904/ejemplos/gpio_boton/build"
+  ],
+  "idf.port": "/dev/tty.usbserial-11201",
+  "idf.flashType": "UART"
+}
